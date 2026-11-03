@@ -1,1 +1,15 @@
-{ "name": "wrongside-online", "version": "1.0.0", "private": true, "main": "server.js", "scripts": { "start": "node server.js" }, "dependencies": { "socket.io": "^4.7.5" }, "engines": { "node": ">=18" } }
+{
+  "name": "wrongside-pc",
+  "version": "1.0.0",
+  "description": "WRONGSIDE game (PC build) - standalone Express server for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
